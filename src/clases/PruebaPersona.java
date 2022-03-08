@@ -15,6 +15,9 @@ public class PruebaPersona {
         System.out.println("persona2 = "+persona2);
         
         persona2.desplegarInformacion();
+        persona2.nombre = "Ana";
+        persona2.apellido = "Torres";
+        persona2.desplegarInformacion();
     }
     
 }
